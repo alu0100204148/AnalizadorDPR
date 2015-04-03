@@ -1,6 +1,11 @@
-# Práctica: Analizador Descendente Predictivo Recursivo
+# Práctica 4 : Analizador Descendente Predictivo Recursivo
 
-* [Deployment in Heroku](http://predictiveparser.herokuapp.com/)
+* [Deployment in Heroku](http://analizadordpr.herokuapp.com/)
+
+
+> Autor: Alexis López, Marcos Luis, Sergio González Rodríguez
+
+
 
 ## Tareas
 
