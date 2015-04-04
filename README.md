@@ -1,20 +1,32 @@
-# Práctica 4 : Analizador Descendente Predictivo Recursivo
+#Práctica 3
 
-* [Deployment in Heroku](http://analizadordpr.herokuapp.com/)
+##  Analizador  léxico
+
+> Autor: Alexis López, Marcos Luis, Sergio Gonzáles Rodriguez
+
+## Acceder a la pagina de la Practica 3
+
+[Github Pages](http://alu0100204148.github.io/AnalizadorLexico/), 
+
+[Heroku](https://analizadorlexico.herokuapp.com/), 
+
+[Test Heroku](https://analizadorlexico.herokuapp.com/test), 
 
 
-> Autor: Alexis López, Marcos Luis, Sergio González Rodríguez
+Para ver los tests hay un enlace en la misma.
 
+Para probar gulp y karma simplemente deberá ejecutar npm install, 
+con lo que se descargara todo lo necesario para su ejecución.
 
+Para probar gulp:
 
-## Tareas
+  gulp test
 
-Añada:
+Para probar karma:
 
-* Extienda y modifique el analizador para que acepte el lenguaje descrito por la gramática EBNF del lenguaje PL/0 que se describe en la entrada de la Wikipedia Recursive descent parser. Procure que el arbol generado refleje la asociatividad correcta para las diferencias y las divisiones. No es necesario que el lenguaje sea exactamente igual pero debería ser parecido. Tener los mismos constructos.
-* Use CoffeeScript para escribir el código (fichero views/main.coffee)
-* Use slim para las vistas
-* Usa Sass para las hojas de estilo
-* Despliegue la aplicación en Heroku
-* Añada pruebas
+  node_modules/karma/bin/karma start
+  
+  
+## Travis
+[![Build Status](https://api.travis-ci.org/alu0100204148/AnalizadorLexico.svg)](https://travis-ci.org/alu0100204148/AnalizadorLexico)
 
