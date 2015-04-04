@@ -2,7 +2,7 @@
   "name": "AnalizadorDPR",
   "version": "1.0.0",
   "description": "Analizador DPR",
-  "main": "csv.js",
+  "main": "main.coffe",
   "directories": {
     "test": "tests"
   },
