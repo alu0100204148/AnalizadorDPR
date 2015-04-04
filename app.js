@@ -9,6 +9,9 @@ var sassMiddleware = require('node-sass-middleware');
 var coffeeMiddleware = require('coffee-middleware');
 
 
+app.set('port', (process.env.PORT || 5000));
+
+
 
 app.use("/stylesheets", express.static(__dirname + '/stylesheets'));
 
@@ -54,5 +57,7 @@ app.get('/test', function (request, response) {
 });
 
 
-app.listen(3000)
 
+app.listen(app.get('port'), function () {
+    console.log("Node app is running at localhost:" + app.get('port'));
+});
