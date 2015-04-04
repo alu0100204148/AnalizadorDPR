@@ -1,16 +1,16 @@
-#Práctica 3
+#Práctica 4
 
-##  Analizador  léxico
+##  Analizador  DPR
 
 > Autor: Alexis López, Marcos Luis, Sergio Gonzáles Rodriguez
 
-## Acceder a la pagina de la Practica 3
+## Acceder a la pagina de la Practica 4
 
-[Github Pages](http://alu0100204148.github.io/AnalizadorLexico/), 
+[Github Pages](http://alu0100204148.github.io/AnalizadorDPR/), 
 
-[Heroku](https://analizadorlexico.herokuapp.com/), 
+[Heroku](https://analizadordpr.herokuapp.com/), 
 
-[Test Heroku](https://analizadorlexico.herokuapp.com/test), 
+[Test Heroku](https://analizadordpr.herokuapp.com/tests), 
 
 
 Para ver los tests hay un enlace en la misma.
