@@ -10,7 +10,7 @@
 
 [Heroku](https://analizadordpr.herokuapp.com/), 
 
-[Test Heroku](https://analizadordpr.herokuapp.com/tests), 
+[Test Heroku](https://analizadordpr.herokuapp.com/test), 
 
 
 Para ver los tests hay un enlace en la misma.
