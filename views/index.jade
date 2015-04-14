@@ -49,14 +49,10 @@ head
             input#files(type='file')
           script(type='text/javascript').
             function dump(fileName) {
-            $.ajax({
-            url: fileName,
-            cache: false,
-            success: function (data) {
+            $.get(fileName, function (data) {
             $("#original").val(data);
-            }
             });
-            }
+            };
             document.getElementById('files').addEventListener('change', CopyMe, false);
             function CopyMe(evt) {
             var file = evt.target.files[0];
