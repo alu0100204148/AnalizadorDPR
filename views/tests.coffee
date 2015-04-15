@@ -2,7 +2,7 @@ assert = chai.assert
 suite 'Comma Separated Values', ->
   setup ->
     if typeof __html__ != 'undefined'
-      document.body.innerHTML = __html__['/test']
+      document.body.innerHTML = __html__['https://analizadordpr.herokuapp.com/test']
       original = document.getElementById('original')
       converted = document.getElementById('converted')
     return
