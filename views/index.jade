@@ -11,7 +11,10 @@ head
     script(src='./views/main.js')
   body
     header
-      h1 Predictive Recursive Descent Parser
+      img(style='float: left', src='/images/logo.png', width='30', height='30')
+      h1 Práctica: 
+        span(style='color: #2dc234') Analizador
+      h2 Analizador Descendente Predictivo Recursivo
       nav
         ul
           li
@@ -32,11 +35,12 @@ head
             a(href='http://crguezl.github.io/pl-html/', title='PLGH') PL-GH
           li
             a(href='http://docs.mathjax.org/en/latest/start.html', title='MathJax') MathJax
+          li
+            a(href='http://travis-ci.org/alu0100204148/AnalizadorDPR', title='Travis') Travis
 
     section
-      p This website contains a simple example of a predictive parser
       #header.header
-        p Load example to parse
+        p Cargar el ejemplo a parsear
         div
           textarea#original(autofocus='', cols='80', rows='5')
         br
@@ -65,9 +69,10 @@ head
             }
             else { alert("Failed to load file"); }
             }
-      input#PARSE.mylink(type='button', value='parse')
+      input#PARSE.mylink.Boton(type='button', value='parse')
       pre#OUTPUT.
         
     //
       footer
         a href="/" back to main
+

@@ -1,24 +1,27 @@
-$red: #000;
+$red: #c30;
 $black: #444;
+$gray6: #666;
+$gray9: #999;
+$graycasiblack: #111;
+$green: #2dc234;
 $white: #fff;
 $blue: #002EB8;
 $main-font: Helvetica, Arial, sans-serif;
+$font2: Tahoma, Geneva, sans-serif;
 
 body {
   font-family: $main-font;
+  background: #000 url(/images/textura.png);
 }
 
 h1 {
-  color: $red;
-  font: 32px/1 $main-font;
+  color: $white;
+  font-family: font2; margin: 30px 0 0 40px; padding: 0px;
 }
 
-header h1 {
-  font-size: 40px;
-  line-height: 80px;
-  background: transparent url(/images/logo.png) 0 0 no-repeat;
-  background-size:5% 70%;
-  padding-left: 84px;
+h2 {
+  color: $white;
+  font-size: 20px; margin: 0px; padding: 0px;
 }
 
 @mixin tabs ($background: blue, $color: yellow) {
@@ -45,8 +48,10 @@ header h1 {
 }
 
 nav {
-  @include tabs ($background: $black, $color: $white);
+  @include tabs ($background: $gray6, $color: $white);
   font-weight: bold;
+  border: 1px solid $gray9;
+  margin-top: 15px;
 }
 
 p {
@@ -116,4 +121,54 @@ nav a.current {
 
 .centered {
   text-align: center;
+}
+
+#original {
+  border: $gray9 2px dotted;
+  background-color: $white;
+  padding: 10px;
+  font-size: 15px;
+  height: lin;
+}
+
+#header p {
+  color: $green;
+  font-size: 20px;
+  font-family: $font2;
+}
+
+#OUTPUT {
+  color: $white;
+  width: 80%;
+  background-color: $graycasiblack;
+}
+
+.loadfile {
+  font-weight: bold;
+  border: 1px solid $gray9;
+  margin-top: 15px;
+}
+
+.Boton {
+    background-color: #2dc234;
+    background-image: -webkit-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+    background-image: -moz-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+    background-image: -o-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+    background-image: linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+    -ms-border-radius:8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+    box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+    color: #fff;
+    display: inline-block;
+    font-family: ‘Pacifico’, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(25, 123, 29, .7);
+    margin: 10px 0 20px 0;
 }
