@@ -2,7 +2,7 @@ assert = chai.assert
 suite 'Comma Separated Values', ->
   setup ->
     if typeof __html__ != 'undefined'
-      document.body.innerHTML = __html__['tests/test.html']
+      document.body.innerHTML = __html__['/test']
       original = document.getElementById('original')
       converted = document.getElementById('converted')
     return
